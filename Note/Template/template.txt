@@ -2,15 +2,15 @@
 using namespace std;
 
 #define  Input        	freopen("input.txt", "r", stdin)
-#define  Output			freopen("input.txt", "w", stdout)
-#define  fu(i,a,b) 		for(int i=(a); i<=(b); ++i)
-#define  fd(i,a,b) 		for(int i=(a); i>=(b); --i)
-#define  fo(i,n) 		for(int i=0; i<(n); ++i)
+#define  Output		freopen("input.txt", "w", stdout)
+#define  fu(i,a,b) 	for(int i=(a); i<=(b); ++i)
+#define  fd(i,a,b) 	for(int i=(a); i>=(b); --i)
+#define  fo(i,n)	for(int i=0; i<(n); ++i)
 #define  fix_set(x)     fixed<<setprecision(x)
 #define  ms(a,x)    	memset(a, x, sizeof(a))
 #define  all(x)         (x).begin(), (x).end()
-#define	 fst			first
-#define	 snd			second
+#define	 fst		first
+#define	 snd		second
 #define  allarr(x,n)	(x, x+n)
 
 
