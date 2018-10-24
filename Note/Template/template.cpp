@@ -2,7 +2,7 @@
 using namespace std;
 
 #define  Input        	freopen("input.txt", "r", stdin)
-#define  Output			freopen("input.txt", "w", stdout)
+#define  Output			freopen("output.txt", "w", stdout)
 #define  fu(i,a,b) 		for(int i=(a); i<=(b); ++i)
 #define  fd(i,a,b) 		for(int i=(a); i>=(b); --i)
 #define  fo(i,n) 		for(int i=0; i<(n); ++i)
