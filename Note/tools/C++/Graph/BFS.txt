@@ -1,0 +1,23 @@
+vector<int> g[maxn]; // vector lưu trữ đỉnh kề
+queue<int> s; // hàng đợi
+int cl[maxn]; // mảng đánh dấu
+
+void bfs(int u) // u là đỉnh xuất phát
+{
+    s.clear(); // dọn sạch hàng đợi
+    s.push(u); // bỏ đỉnh xuất phát vào
+    cl[u] = 1; // đánh dấu đỉnh xuất phát
+    while(!s.empty()) // chừng nào hàng đợi còn chưa rỗng
+    {
+        int u = s.front(); // lấy ra đỉnh ở đầu queue
+        s.pop(); // bỏ đỉnh ở đầu queue ra khỏi queue
+        for(int v : g[u]) // với mỗi đỉnh v kề với đỉnh u
+        {
+            if(cl[v]==0) // nếu đỉnh v chưa được đánh dấu
+            {
+                s.push_back(v); // bỏ đỉnh v vào queue
+                cl[v]=1; // đánh dấu đỉnh v
+            }
+	}
+    }
+}
