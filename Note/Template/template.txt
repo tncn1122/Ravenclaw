@@ -3,9 +3,9 @@ using namespace std;
 
 #define  Infile        	freopen("input.txt", "r", stdin)
 #define  Outfile		freopen("output.txt", "w", stdout)
-#define  fu(i,a,b) 		for(int i=(a); i<=(b); ++i)
-#define  fd(i,a,b) 		for(int i=(a); i>=(b); --i)
-#define  fo(i,n) 		for(int i=0; i<(n); ++i)
+#define  fu(i,a,b) 		for(long long i=(a); i<=(b); ++i)
+#define  fd(i,a,b) 		for(long long i=(a); i>=(b); --i)
+#define  fo(i,n) 		for(long long i=0; i<(n); ++i)
 #define  fix_set(x)     fixed<<setprecision(x)
 #define  ms(a,x)    	memset(a, x, sizeof(a))
 #define  all(x)         (x).begin(), (x).end()
@@ -32,11 +32,6 @@ inline void Tstop();
 
 //============//
 
-void Input()
-{
-	
-}
-
 void Solve()
 {
 
@@ -47,9 +42,9 @@ int main()
 	ios_base::sync_with_stdio(false); cin.tie(NULL);
 	//Infile;
 	//Outfile;
-	Input();	Tstart();
+
 	Solve();
-				Tstop();	
+
 	return 0;
 }
 
