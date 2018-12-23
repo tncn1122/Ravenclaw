@@ -16,7 +16,7 @@ using namespace std;
 typedef double db;
 typedef long long ll;
 clock_t TimeBegin, TimeEnd;
-ll const MAX = 1e18;
+ll const INF = 1e18;
 ll const Base = 1;
 
 
