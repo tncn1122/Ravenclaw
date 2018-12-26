@@ -2,15 +2,15 @@
 using namespace std;
 
 #define  Infile        	freopen("input.txt", "r", stdin)
-#define  Outfile		freopen("output.txt", "w", stdout)
-#define  fu(i,a,b) 		for(long long i=(a); i<=(b); ++i)
-#define  fd(i,a,b) 		for(long long i=(a); i>=(b); --i)
-#define  fo(i,n) 		for(long long i=0; i<(n); ++i)
+#define  Outfile	freopen("output.txt", "w", stdout)
+#define  fu(i,a,b) 	for(long long i=(a); i<=(b); ++i)
+#define  fd(i,a,b) 	for(long long i=(a); i>=(b); --i)
+#define  fo(i,n) 	for(long long i=0; i<(n); ++i)
 #define  fix_set(x)     fixed<<setprecision(x)
 #define  ms(a,x)    	memset(a, x, sizeof(a))
 #define  all(x)         (x).begin(), (x).end()
-#define	 fst			first
-#define	 snd			second
+#define	 fst		first
+#define	 snd		second
 
 
 typedef double db;
