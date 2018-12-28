@@ -12,21 +12,17 @@ using namespace std;
 #define	 fst			first
 #define	 snd			second
 
-
-
 typedef double db;
 typedef long long ll;
 clock_t TimeBegin, TimeEnd;
 ll const INF = 1e18;
 ll const Base = 1;
 
-
 inline ll mod(string num, ll a);
 inline ll diMod(ll A, ll B);
 inline ll fpow(ll a,ll x);
 inline void Tstart();
 inline void Tstop();
-
 
 
 //declare
