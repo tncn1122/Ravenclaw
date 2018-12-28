@@ -1,16 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define  Infile        	freopen("input.txt", "r", stdin)
-#define  Outfile	freopen("output.txt", "w", stdout)
-#define  fu(i,a,b) 	for(long long i=(a); i<=(b); ++i)
-#define  fd(i,a,b) 	for(long long i=(a); i>=(b); --i)
-#define  fo(i,n) 	for(long long i=0; i<(n); ++i)
-#define  fix_set(x)     fixed<<setprecision(x)
-#define  ms(a,x)    	memset(a, x, sizeof(a))
-#define  all(x)         (x).begin(), (x).end()
-#define	 fst		first
-#define	 snd		second
+#define  Infile			freopen("input.txt", "r", stdin)
+#define  Outfile		freopen("output.txt", "w", stdout)
+#define  fu(i,a,b)		for(long long i=(a); i<=(b); ++i)
+#define  fd(i,a,b)		for(long long i=(a); i>=(b); --i)
+#define  fo(i,n)		for(long long i=0; i<(n); ++i)
+#define  fix_set(x)		fixed<<setprecision(x)
+#define  ms(a,x)		memset(a, x, sizeof(a))
+#define  all(x)			(x).begin(), (x).end()
+#define	 fst			first
+#define	 snd			second
+
 
 
 typedef double db;
@@ -57,7 +58,6 @@ int main()
 
 inline ll mod(string num, ll a) 
 { 
-	// tinh string % a
     ll res = 0; 
     fo(i, num.length()) 
          res = (res*10 + (ll)num[i] - '0') %a;
@@ -66,7 +66,6 @@ inline ll mod(string num, ll a)
 
 inline ll fpow(ll a,ll x)
 {
-	 //tinh (a^x) % Base
 	if(x==0)return 1;	
 	if(x&1) 
 	{
@@ -81,7 +80,7 @@ inline ll fpow(ll a,ll x)
 
 inline ll diMod(ll A, ll B)
 {
-	//tinh (A/B) % Base
+	//(A/B)%Base
 	ll result = (A * fpow(B, Base-2)) % Base; 
 	return result;
 }	
