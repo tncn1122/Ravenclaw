@@ -56,7 +56,7 @@ inline ll mod(string num, ll a)
 { 
     ll res = 0; 
     fo(i, num.length()) 
-         res = (res*10 + (ll)num[i] - '0') %a;
+        res = (res*10 + (ll)num[i] - '0') %a;
     return res; 
 } 
 
