@@ -19,9 +19,9 @@ clock_t TimeBegin, TimeEnd;
 ll const INF = 1000000000000000000;
 ll const Base = 1000000007;
 
-inline ll mod(string num, ll a);
-inline ll diMod(ll A, ll B);
-inline ll fpow(ll a,ll x);
+inline ll mod(string num, ll Base);
+inline ll diMod(ll A, ll B, ll Base);
+inline ll fpow(ll a, ll x, ll Base);
 inline void Tstart();
 inline void Tstop();
 
@@ -53,15 +53,15 @@ int main()
 //=============================================================================//
 //=============================================================================//
 
-inline ll mod(string num, ll a) 
+inline ll mod(string num, ll Base) 
 { 
     ll res = 0; 
     fo(i, num.length()) 
-        res = (res*10 + (ll)num[i] - '0') %a;
+        res = (res*10 + (ll)num[i] - '0') % Base;
     return res; 
 } 
 
-inline ll fpow(ll a,ll x)
+inline ll fpow(ll a, ll x, ll Base)
 {
     if(x==0)return 1;	
     if(x&1) 
@@ -75,7 +75,7 @@ inline ll fpow(ll a,ll x)
     }
 }
 
-inline ll diMod(ll A, ll B)
+inline ll diMod(ll A, ll B, ll Base)
 {
     //(A/B)%Base
     ll result = (A * fpow(B, Base-2)) % Base; 
