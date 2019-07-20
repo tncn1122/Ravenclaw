@@ -17,15 +17,17 @@ using namespace std;
 #define  mp(a,b)		make_pair(a, b)
 #define	 fst			first
 #define	 snd			second
+#define  endl			'\n'
 
 typedef long long ll;
 typedef vector <ll> vtll;
+typedef pair <ll, ll> pll;
 
 clock_t TimeBegin, TimeEnd;
 ll LX[] = {-1,0,0,1,-1,-1,1,1}; // 8 - 4
 ll LY[] = {0,-1,1,0,-1,1,-1,1}; 
 ll const INF = LLONG_MAX;
-
+db const EPS  = DBL_EPSILON;
 
 inline ll mod(string num, ll Base);
 inline ll diMod(ll A, ll B, ll Base);
