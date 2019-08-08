@@ -12,19 +12,20 @@ using namespace std;
 #define  fix_set(x)		fixed<<setprecision(x)
 #define  ms(a)			memset(a, 0, sizeof(a))
 #define  all(x)			(x).begin(), (x).end()
-#define  pb(x)			push_back(x)
 #define  ar(x, n)		(x),(x)+(n)
+#define  pb(x)			push_back(x)
 #define  mp(a,b)		make_pair(a, b)
-#define	 fst			first
-#define	 snd			second
+#define	 fi				first
+#define	 se				second
 #define  endl			'\n'
 
+typedef double db
 typedef long long ll;
 typedef vector <ll> vtll;
 typedef pair <ll, ll> pll;
 
 clock_t TimeBegin, TimeEnd;
-ll LX[] = {-1,0,0,1,-1,-1,1,1}; // 8 - 4
+ll LX[] = {-1,0,0,1,-1,-1,1,1}; // 4 - 8
 ll LY[] = {0,-1,1,0,-1,1,-1,1}; 
 ll const INF = LLONG_MAX;
 db const EPS  = DBL_EPSILON;
@@ -44,7 +45,8 @@ inline void Tstop();
 
 void Solve()
 {
-
+	//code here
+	
 }
 
 
@@ -55,7 +57,7 @@ int main()
 	ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 
 	#ifdef RAVENCLAW
-		Infile;
+		//Infile;
 		//Outfile;
 	#endif
 		Solve();
