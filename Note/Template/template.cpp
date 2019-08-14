@@ -19,7 +19,7 @@ using namespace std;
 #define	 se				second
 #define  endl			'\n'
 
-typedef double db
+typedef double db;
 typedef long long ll;
 typedef vector <ll> vtll;
 typedef pair <ll, ll> pll;
