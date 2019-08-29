@@ -3,7 +3,6 @@ using namespace std;
 
 #define  Infile				freopen("input.txt", "r", stdin)
 #define  Outfile			freopen("output.txt", "w", stdout)
-#define  fo(i,a,b,h)		for(long long i=(a); i<=(b); i+=h)
 #define  ms(a, u)			memset(a, u, sizeof(a))
 #define  mp(a,b)			make_pair(a, b)
 #define  pb(x)				push_back(x)
