@@ -1,24 +1,24 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define  Infile			freopen("input.txt", "r", stdin)
-#define  Outfile		freopen("output.txt", "w", stdout)
-#define  lowb(a,x) 		lower_bound(a.begin(),a.end(),x)-a.begin();
-#define  upb(a,x) 		upper_bound(a.begin(),a.end(),x)-a.begin();
-#define  show(a) 		cout<<"\n-> "<<#a<<" = "<<a<<endl
-#define  fu(i,a,b)		for(long long i=(a); i<=(b); ++i)
-#define  fd(i,a,b)		for(long long i=(a); i>=(b); --i)
-#define  fo(i,n)		for(long long i=0; i<(n); ++i)
-#define  fixset(x)		fixed<<setprecision(x)
-#define  ms(a)			memset(a, 0, sizeof(a))
-#define  all(x)			(x).begin(), (x).end()
-#define  ar(x, n)		(x),(x)+(n)
-#define  pb(x)			push_back(x)
-#define  mp(a,b)		make_pair(a, b)
-#define	 _				<<", "<<	
-#define	 fi				first
-#define	 se				second
-#define  endl			'\n'
+#define  Infile                 freopen("input.txt", "r", stdin)
+#define  Outfile                freopen("output.txt", "w", stdout)
+#define  lowb(a,x)              lower_bound(a.begin(),a.end(),x)-a.begin();
+#define  upb(a,x)               upper_bound(a.begin(),a.end(),x)-a.begin();
+#define  show(a)                cout<<"\n-> "<<#a<<" = "<<a<<endl
+#define  fu(i,a,b)              for(long long i=(a); i<=(b); ++i)
+#define  fd(i,a,b)              for(long long i=(a); i>=(b); --i)
+#define  fo(i,n)                for(long long i=0; i<(n); ++i)
+#define  fixset(x)              fixed<<setprecision(x)
+#define  ms(a)                  memset(a, 0, sizeof(a))
+#define  all(x)                 (x).begin(), (x).end()
+#define  ar(x, n)               (x),(x)+(n)
+#define  pb(x)                  push_back(x)
+#define  mp(a,b)                make_pair(a, b)
+#define  _                      <<", "<<
+#define  fi                     first
+#define  se                     second
+#define  endl                   '\n'
 
 typedef double db;
 typedef long long ll;
