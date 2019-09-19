@@ -1,12 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define  Infile				freopen("input.txt", "r", stdin)
-#define  Outfile			freopen("output.txt", "w", stdout)
-#define  ms(a, u)			memset(a, u, sizeof(a))
-#define  mp(a,b)			make_pair(a, b)
-#define  pb(x)				push_back(x)
-#define  endl				'\n'
+#define  Infile               freopen("input.txt", "r", stdin)
+#define  Outfile              freopen("output.txt", "w", stdout)
+#define  show(a)              cout<<"\n-> "<<#a<<" = "<<a<<endl
+#define  ms(a, u)             memset(a, u, sizeof(a))
+#define  mp(a,b)              make_pair(a, b)
+#define  pb(x)                push_back(x)
+#define  _                    <<", "<<
+#define  endl                 '\n'
 
 typedef unsigned long long ull;
 typedef long long ll;

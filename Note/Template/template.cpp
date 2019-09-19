@@ -16,8 +16,8 @@ using namespace std;
 #define  pb(x)                  push_back(x)
 #define  mp(a,b)                make_pair(a, b)
 #define  _                      <<", "<<
-#define  fi                     first
-#define  se                     second
+#define  fii                    first
+#define  see                    second
 #define  endl                   '\n'
 
 typedef double db;
