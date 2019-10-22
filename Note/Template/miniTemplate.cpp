@@ -3,7 +3,7 @@ using namespace std;
 
 #define  Infile               freopen("input.txt", "r", stdin)
 #define  Outfile              freopen("output.txt", "w", stdout)
-#define  show(a)              cout<<"\n-> "<<#a<<" = "<<a<<endl
+#define  show(a)              cerr<<"\n-> "<<#a<<" = "<<a<<endl
 #define  ms(a, u)             memset(a, u, sizeof(a))
 #define  mp(a,b)              make_pair(a, b)
 #define  pb(x)                push_back(x)

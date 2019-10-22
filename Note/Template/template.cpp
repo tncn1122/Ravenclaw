@@ -5,7 +5,7 @@ using namespace std;
 #define  Outfile        freopen("output.txt", "w", stdout)
 #define  lowb(a,x)      lower_bound(a.begin(),a.end(),x)-a.begin()
 #define  upb(a,x)       upper_bound(a.begin(),a.end(),x)-a.begin()
-#define  show(a)        cout<<"\n-> "<<#a<<" = "<<a<<endl
+#define  show(a)        cerr<<"\n-> "<<#a<<" = "<<a<<endl
 #define  fu(i,a,b)      for(long long i=(a); i<=(b); ++i)
 #define  fd(i,a,b)      for(long long i=(a); i>=(b); --i)
 #define  fo(i,n)        for(long long i=0; i<(n); ++i)
