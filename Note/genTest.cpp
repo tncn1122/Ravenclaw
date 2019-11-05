@@ -2,7 +2,7 @@
 using namespace std;
 
 #define  Infile         freopen("input.txt", "r", stdin)
-#define  Outfile        freopen("output.txt", "w", stdout)
+#define  Outfile        freopen("input.txt", "w", stdout)
 #define  lowb(a,x)      lower_bound(a.begin(),a.end(),x)-a.begin()
 #define  upb(a,x)       upper_bound(a.begin(),a.end(),x)-a.begin()
 #define  show(a)        cerr<<"\n-> "<<#a<<" = "<<a<<endl
@@ -41,6 +41,21 @@ inline ll mulMod(ll Aa, ll Bb, ll BASE);
 inline string toString(ll NUM);
 inline void Tstart();
 inline void Tstop();
+
+//Gen function
+
+// Generate Long Long number between left and right
+ll genNumLong(ll left, ll right);
+
+// Generate int number between left and right
+ll genNum(ll left, ll right);       //max = 32767
+
+ll gen(ll right);
+
+// Generate a string with length = len and include some characters in source
+string genString(ll len, string source);
+
+
 
 
 //Declare Here
@@ -132,6 +147,35 @@ inline string toString(ll NUM)
     stringstream sss; sss << NUM;
     return sss.str();
 }	
+
+string genString(ll len, string source)
+{
+    string res = "";
+    for (ll i = 0; i < len; i++)
+    {
+        res.push_back(source[rand()%source.length()]);
+    }
+    return res;
+}
+
+
+ll genNum(ll left, ll right)  //max = 32767
+{
+    return left + rand() % (right + 1 - left);
+}
+
+ll gen(ll right)
+{
+    return (genNum(0, right));
+}
+
+ll genNumLong(ll left, ll right)
+{
+    return left + ((long long)rand() * (RAND_MAX + 1) * (RAND_MAX + 1) * (RAND_MAX + 1) + 
+                (long long)rand() * (RAND_MAX + 1) * (RAND_MAX + 1) +
+                (long long)rand() * (RAND_MAX + 1) +
+                rand()) % (right - left + 1);
+}
 
 inline void Tstart()
 {
